@@ -1,7 +1,7 @@
 ---
 title: "Obsoleting the Concept of Media Type Suffixes"
 updates: 6838
-category: info
+category: bcp
 
 docname: draft-mnt-mediaman-plus-minus-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
@@ -26,8 +26,12 @@ venue:
 author:
  -
     fullname: "Martin Thomson"
-    organization: Your Organization Here
+    organization: Mozilla
     email: "mt@lowentropy.net"
+ -
+    fullname: "Mark Nottingham"
+    organization: Cloudflare
+    email: "mnot@mnot.net"
 
 normative:
 
@@ -36,15 +40,15 @@ informative:
 
 --- abstract
 
-TODO Abstract
+The use of a '+' character in media types was originally used to define media sub-types.
+The use of media type suffixes were never clearly defined.
 
 
 --- middle
 
-# Introduction
+# The '+' Character Has No Special Meaning in a Media Type
 
-TODO Introduction
-
+# Consequences of Interpreting Media Types By Suffix
 
 # Conventions and Definitions
 
@@ -53,8 +57,7 @@ TODO Introduction
 
 # Security Considerations
 
-TODO Security
-
+The potential for a piece of content to be interpreted in multiple ways can create security problems.
 
 # IANA Considerations
 
